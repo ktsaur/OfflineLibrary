@@ -37,6 +37,17 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+
+    // okhttp - ядро библиотеки
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging.interceptor)
+
+    // retrofit - работа с аннотациями
+    implementation(libs.retrofit)
+
+    // coroutines
+    implementation(libs.coroutines)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
